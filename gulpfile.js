@@ -5,6 +5,16 @@ var browserSync = require("browser-sync");
 var plumber = require("gulp-plumber");
 var autoprefixer = require("gulp-autoprefixer");
 
+/*
+npm i gulp@3.9.1
+npm install node-sass gulp-sass --save-dev
+npm install --save-dev gulp-watch
+npm install --save-dev gulp-rename
+npm install browser-sync gulp --save-dev
+npm install --save-dev gulp-plumber
+npm install --save-dev gulp-autoprefixer
+*/
+
 gulp.task('sass', function(){
   gulp.src('src/scss/main.scss')
     .pipe(plumber())
@@ -37,18 +47,6 @@ gulp.task('default', ['watch']);
 gulp.task('build', function () {
   gulp.src('src/css/style.css')
     .pipe(gulp.dest('build/css'));
-  // gulp.src('src/js/*.js')
-  //   .pipe(gulp.dest('build/js'));
   gulp.src('src/index.html')
     .pipe(gulp.dest('build'));
 });
-
-/*
-npm i gulp
-npm install node-sass gulp-sass --save-dev
-npm install --save-dev gulp-watch
-npm install --save-dev gulp-rename
-npm install browser-sync gulp --save-dev
-npm install --save-dev gulp-plumber
-npm install --save-dev gulp-autoprefixer
-*/
