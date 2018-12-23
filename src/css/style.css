@@ -4,10 +4,37 @@
   margin: 0;
 }
 
+.wrap {
+  padding: 0 15px;
+}
+
+.back {
+  background-color: #ffffff;
+}
+
 .thisIs {
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.thisIs__title {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 4px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 12px;
+  color: #333b46;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.thisIs__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: #81868e;
+  margin-bottom: 60px;
 }
