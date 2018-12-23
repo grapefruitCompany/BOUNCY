@@ -12,6 +12,27 @@
   background-color: #ffffff;
 }
 
+.btn {
+  display: inline-block;
+  height: 35px;
+  padding: 0 33px;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 35px;
+  font-family: "Open Sans", sans-serif;
+  color: #333b46;
+  border: 1px solid #333b46;
+  text-decoration: none;
+  border-radius: 25px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color: #333b46;
+  color: #ffffff;
+}
+
 .thisIs {
   display: -webkit-box;
   display: flex;
