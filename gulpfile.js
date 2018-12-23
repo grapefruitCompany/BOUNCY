@@ -47,6 +47,8 @@ gulp.task('default', ['watch']);
 gulp.task('build', function () {
   gulp.src('src/css/style.css')
     .pipe(gulp.dest('build/css'));
+  gulp.src('src/img/*.*')
+    .pipe(gulp.dest('build/img'));
   gulp.src('src/index.html')
     .pipe(gulp.dest('build'));
 });
