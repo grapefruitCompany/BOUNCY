@@ -1,0 +1,19 @@
+.btn {
+  display: inline-block;
+  height: 35px;
+  padding: 0 33px;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 35px;
+  font-family: $open-sans;
+  color: $dark-blue;
+  border: 1px solid $dark-blue;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all .5s;
+
+  &:hover {
+    background-color: $dark-blue;
+    color: $white;
+  }
+}

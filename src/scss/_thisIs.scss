@@ -1,4 +1,27 @@
 .thisIs {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+  &__block {
+    
+  }
+
+  &__title {
+    font-family: $source-sans;
+    letter-spacing: 4px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 12px;
+    color: $dark-blue;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    font-family: $open-sans;
+    font-size: 14px;
+    line-height: 25px;
+    color: $light-gray;
+    margin-bottom: 60px;    
+  }
 }

@@ -29,12 +29,60 @@
   font-weight: 25px;
   max-width: 450px;
   font-width: 50px;
+
+.wrap {
+  padding: 0 15px;
+}
+
+.back {
+  background-color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  height: 35px;
+  padding: 0 33px;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 35px;
+  font-family: "Open Sans", sans-serif;
+  color: #333b46;
+  border: 1px solid #333b46;
+  text-decoration: none;
+  border-radius: 25px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color: #333b46;
+  color: #ffffff;
+
 }
 
 .thisIs {
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.thisIs__title {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 4px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 12px;
+  color: #333b46;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.thisIs__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: #81868e;
+  margin-bottom: 60px;
 }
