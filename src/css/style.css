@@ -4,6 +4,32 @@
   margin: 0;
 }
 
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title__header {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 30px;
+  letter-spacing: 4px;
+  color: #333b46;
+}
+
+.title__text {
+  color: #81868e;
+  font-size: 14px;
+  font-weight: 25px;
+  max-width: 450px;
+  font-width: 50px;
+
 .wrap {
   padding: 0 15px;
 }
@@ -31,6 +57,7 @@
 .btn:hover {
   background-color: #333b46;
   color: #ffffff;
+
 }
 
 .thisIs {

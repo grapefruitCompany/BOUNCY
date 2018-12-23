@@ -1,0 +1,25 @@
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+	&__header {
+		font-size: 20px;
+		font-family: $source-sans;
+		font-weight: normal;
+		text-transform: uppercase;
+		padding: 30px;
+		letter-spacing: 4px;
+		color: $dark-blue;
+	}
+	
+	&__text {
+		color: $light-gray;
+		font-size: 14px;
+		font-weight: 25px;
+		max-width: 450px; 
+		font-width: 50px;
+	}
+}
